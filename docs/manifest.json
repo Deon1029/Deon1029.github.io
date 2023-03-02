@@ -1,3 +1,5 @@
 {
-    "name": "TestPWA"
+    "name": "TestPWA",
+    "start_url": "/index.html",
+    "display": "fullscreen"
 }
