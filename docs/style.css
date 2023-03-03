@@ -1,0 +1,13 @@
+.checkThisOut {
+    color: deepskyblue;
+}
+
+.fontTest {
+    font-family: 'isThisFontName';
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: 'isThisFontName';
+    src: url('NanumPen.ttf') format('truetype');
+}
