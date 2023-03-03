@@ -1,0 +1,13 @@
+.checkThisOut {
+    color: deepskyblue;
+}
+
+.fontTest {
+    font-family: 'isThisFontName';
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: 'isThisFontName';
+    src: url('../나눔_글꼴/나눔손글씨_붓/NanumBrush.ttf') format('truetype');
+}
