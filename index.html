@@ -28,9 +28,34 @@
   <div>(github page test)</div>
   <div class="checkThisOut">test message</div>
   <div class="fontTest">nanum? 나눔? 폰트 테스트</div>
+  <br>
+  <div>당신의 현재 위치 띠용</div>
+  <div class="geolocationTestAccuracy"></div>
+  <div class="geolocationTestLatitude"></div>
+  <div class="geolocationTestLongitude"></div>
 <script>
   // let myDivTag = document.querySelector('div')
   // myDivTag.innerText = '안녕 월도'
+
+
+  let myTag1 = document.querySelector('.geolocationTestAccuracy')
+  // myTag1.innerText = 'asdf'
+  let myTag2 = document.querySelector('.geolocationTestLatitude')
+  let myTag3 = document.querySelector('.geolocationTestLongitude')
+  
+  let success = function(res) {
+    console.log(res)
+    myTag1.innerText = `정확도 : ${res.coords.accuracy}`
+    myTag2.innerText = `위도 : ${res.coords.latitude}`
+    myTag3.innerText = `경도 : ${res.coords.longitude}`
+  }
+  let error = function(err) {
+    console.log(err)
+  }
+  navigator.geolocation.getCurrentPosition(success, error)
+
+
+
 </script>
 </body>
 </html>
