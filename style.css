@@ -9,5 +9,5 @@
 
 @font-face {
     font-family: 'isThisFontName';
-    src: url('/NanumPen.ttf') format('truetype');
+    src: url('NanumPen.ttf') format('truetype');
 }
