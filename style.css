@@ -1,13 +1,10 @@
-.checkThisOut {
-    color: deepskyblue;
+.darkblue {
+    color: darkblue;
 }
-
-.fontTest {
-    font-family: 'isThisFontName';
-    font-size: 24px;
+.nanum-gothic {
+    font-family: 'NanumGothic';
 }
-
 @font-face {
-    font-family: 'isThisFontName';
-    src: url('NanumPen.ttf') format('truetype');
+    font-family: 'NanumGothic';
+    src: url('NanumGothic.ttf') format('truetype');
 }
